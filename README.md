@@ -39,3 +39,68 @@ Users can interact with an AI assistant in real-time, simulating a professional 
 ---
 
 ## 📁 Project Structure
+
+chatBot/
+├── app.py # Flask backend logic
+├── .env # Secure API key
+├── templates/
+│ ├── base.html # Base HTML template
+│ └── index.html # Main chat page
+├── static/
+│ ├── css/
+│ │ └── style.css # Styling
+│ └── js/
+│ └── script.js # Frontend logic
+└── requirements.txt # Python dependencies
+
+
+---
+
+## ⚡ Quick Overview for HR
+- **Backend:** Python + Flask handles chat logic and API calls  
+- **Frontend:** HTML/CSS/JS for interactive chat UI with animations  
+- **AI Integration:** OpenRouter API for smart AI responses  
+- **Security:** API key stored in `.env`, never exposed to frontend  
+- **Responsive & Scalable:** Works on mobile and desktop, designed for easy expansion  
+
+---
+
+## 🚀 How It Works
+1. User types a message in the frontend input box.  
+2. JavaScript sends the message to the Flask backend (`/api/chat`).  
+3. Flask calls OpenRouter API using the secure API key.  
+4. AI response is returned and displayed in the chat interface with timestamps and typing animations.  
+
+---
+
+## 💡 Skills Demonstrated
+- Full-stack web development  
+- Secure API integration  
+- Frontend animations & responsive UI  
+- AJAX-based real-time communication  
+- Environment management using `.env` files  
+
+---
+
+
+---
+
+## ⚡ Quick Start
+
+1. Clone the repository:
+
+```bash
+git clone <repo-url>
+cd chatBot
+
+2. Install dependencies:
+  python -m pip install -r requirements.txt
+
+3. Create a .env file with your OpenRouter API key:
+  OPENROUTER_API_KEY=sk-or-v1-xxxxxxxxxxxxxxxx
+
+4. Run the Flask server:
+  python app.py
+
+5. Open your browser at:
+  http://127.0.0.1:5000
