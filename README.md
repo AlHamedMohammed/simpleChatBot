@@ -7,7 +7,7 @@ This project is a **Next-Gen AI ChatBot** built with **Python (Flask)** for the 
 
 Users can interact with an AI assistant in real-time, simulating a professional conversational interface suitable for customer support or virtual assistance.
  
- ![ChatBot Screenshot](assets/chatbot.png)
+ ![ChatBot Screenshot](chatbot.png)
 ---
 
 
