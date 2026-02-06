@@ -73,18 +73,20 @@ chatBot/
 
 1. Clone the repository:
 
-```bash
-git clone <repo-url>
-cd chatBot
-
+    ```bash
+    git clone <repo-url>
+    cd chatBot
+    ```
 2. Install dependencies:
-  python -m pip install -r requirements.txt
+    ```
+    python -m pip install -r requirements.txt
+    ```
+4. Create a .env file with your OpenRouter API key:
+    OPENROUTER_API_KEY=sk-or-v1-xxxxxxxxxxxxxxxx
 
-3. Create a .env file with your OpenRouter API key:
-  OPENROUTER_API_KEY=sk-or-v1-xxxxxxxxxxxxxxxx
-
-4. Run the Flask server:
-  python app.py
-
-5. Open your browser at:
-  http://127.0.0.1:5000
+5. Run the Flask server:
+    ```
+    python app.py
+    ```
+6. Open your browser at:
+    http://127.0.0.1:5000
