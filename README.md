@@ -41,17 +41,18 @@ Users can interact with an AI assistant in real-time, simulating a professional 
 ## 📁 Project Structure
 
 chatBot/
-├── app.py # Flask backend logic
-├── .env # Secure API key
-├── templates/
-│ ├── base.html # Base HTML template
-│ └── index.html # Main chat page
-├── static/
-│ ├── css/
-│ │ └── style.css # Styling
-│ └── js/
-│ └── script.js # Frontend logic
-└── requirements.txt # Python dependencies
+├── app.py                  # Main Flask backend logic handling API calls and routing
+├── .env                    # Secure storage for OpenRouter API key
+├── templates/              # HTML templates for the frontend
+│   ├── base.html           # Base template shared across pages
+│   └── index.html          # Main chat interface page
+├── static/                 # Static assets (CSS, JavaScript, images)
+│   ├── css/
+│   │   └── style.css       # Styling for the chat interface
+│   └── js/
+│       └── script.js       # Frontend logic for sending/receiving messages
+└── requirements.txt        # Python dependencies to install with pip
+
 
 
 ---
