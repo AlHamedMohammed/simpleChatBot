@@ -6,7 +6,8 @@
 This project is a **Next-Gen AI ChatBot** built with **Python (Flask)** for the backend and **HTML, CSS, JavaScript** for the frontend. It demonstrates a clean separation of concerns, modern frontend design, and integration with **OpenRouter API** for AI-powered responses.  
 
 Users can interact with an AI assistant in real-time, simulating a professional conversational interface suitable for customer support or virtual assistance.
-
+ 
+ ![ChatBot Screenshot](assets/chatbot.png)
 ---
 
 
