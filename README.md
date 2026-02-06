@@ -39,7 +39,7 @@ Users can interact with an AI assistant in real-time, simulating a professional 
 ---
 
 ## 📁 Project Structure
-'''
+```
 chatBot/
 ├── app.py                  # Main Flask backend logic handling API calls and routing
 ├── .env                    # Secure storage for OpenRouter API key
@@ -52,7 +52,7 @@ chatBot/
 │   └── js/
 │       └── script.js       # Frontend logic for sending/receiving messages
 └── requirements.txt        # Python dependencies to install with pip
-'''
+```
 
 
 ---
