@@ -9,17 +9,6 @@ Users can interact with an AI assistant in real-time, simulating a professional 
 
 ---
 
-## 🛠 Features
-- **Real-time AI responses** using OpenRouter API (GPT-4 models)  
-- **Frontend–Backend Separation**:
-  - Python handles backend logic and API calls  
-  - HTML handles structure, CSS handles style, JS handles interactions  
-- **Typing indicator & chat animations** for realistic conversations  
-- **Secure API key storage** using `.env`  
-- **Responsive design** for mobile and desktop devices  
-- **Scalable architecture** for chat history, multi-user support, or multiple AI models  
-
----
 
 ## ⚙️ Technology Stack
 - **Backend**: Python 3.12+, Flask, Requests, python-dotenv  
@@ -57,7 +46,7 @@ chatBot/
 
 ---
 
-## ⚡ Quick Overview for HR
+## ⚡ Quick Overview 
 - **Backend:** Python + Flask handles chat logic and API calls  
 - **Frontend:** HTML/CSS/JS for interactive chat UI with animations  
 - **AI Integration:** OpenRouter API for smart AI responses  
@@ -74,14 +63,8 @@ chatBot/
 
 ---
 
-## 💡 Skills Demonstrated
-- Full-stack web development  
-- Secure API integration  
-- Frontend animations & responsive UI  
-- AJAX-based real-time communication  
-- Environment management using `.env` files  
 
----
+
 
 
 ---
